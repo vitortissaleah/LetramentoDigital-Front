@@ -9,4 +9,8 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  server: {
+    port: 80,         // Porta alterada para 80
+    host: true        // Permite acesso externo (por IP público ou domínio)
+  }
 })
